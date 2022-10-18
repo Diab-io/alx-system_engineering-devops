@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # prints files and directories
+#Only displays the part of the name after the first dash. 
 
 list=$(ls)
 for file in $list
 do
-    echo "$i" | cut -d '-' -f2
+    echo "$file"
 done
