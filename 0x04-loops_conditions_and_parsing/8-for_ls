@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# prints files and directories
+
+list=$(ls)
+for file in $list
+do
+    echo "$file"
+done
