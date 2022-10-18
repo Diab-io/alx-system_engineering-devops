@@ -2,8 +2,9 @@
 #A BASH SCRIPT THAT PRINTS BEST SCHOOL 10 TIMES
 
 i=0
+
 while [ $i -lt 10 ]
 do
     echo "Best School"
-    i=$(( i+1 )) 
+    ((i++)) 
 done
