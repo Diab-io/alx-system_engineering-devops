@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#prints best school
+
+index=1
+
+until [  $index -gt 10 ]
+do
+    echo "Best School"
+    (( index++ ))
+done
