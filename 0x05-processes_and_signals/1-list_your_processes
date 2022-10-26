@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# outputs processes for all users
+
+ps -aux
